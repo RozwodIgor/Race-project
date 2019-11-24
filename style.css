@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+div {
+    height: 100vh;
+    background: url('1.png') no-repeat, url('2.png') no-repeat, url('3.png') no-repeat, url('4.png') no-repeat;
+    background-size: auto 15%;
+    background-position: top 20% left 5%, top 35% left 5%, top 60% left 5%,
+        top 28% left -50%;
+    transition: background-position 10s ease;
+}
+
+div:hover {
+    background-position: top 20% left 85%, top 35% left 95%, top 60% left 75%,
+        top 28% left 250%;
+
+}
